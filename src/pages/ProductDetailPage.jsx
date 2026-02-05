@@ -1,4 +1,9 @@
+import { useParams } from "react-router";
+
 export default function ProductDetailPage() {
+  const params = useParams();
+  console.log(params);
+
   return (
     <>
       <header>

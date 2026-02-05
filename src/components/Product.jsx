@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function Product({ product }) {
   return (
-    <Link to="/products/detail" className="product-card-link">
+    <Link to={`/products/${product.id}`} className="product-card-link">
       <article className="product-card">
         <img src={product.image} className="product-image" />
         <div className="product-info">
