@@ -11,8 +11,8 @@ export const products = [
     inStock: true,
     rating: {
       rate: 3.9,
-      count: 120
-    }
+      count: 120,
+    },
   },
   {
     id: 2,
@@ -21,12 +21,13 @@ export const products = [
     description:
       "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
     category: "men's clothing",
-    image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+    image:
+      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
     inStock: true,
     rating: {
       rate: 4.1,
-      count: 259
-    }
+      count: 259,
+    },
   },
   {
     id: 3,
@@ -39,8 +40,8 @@ export const products = [
     inStock: false,
     rating: {
       rate: 4.7,
-      count: 500
-    }
+      count: 500,
+    },
   },
   {
     id: 4,
@@ -53,12 +54,13 @@ export const products = [
     inStock: true,
     rating: {
       rate: 2.1,
-      count: 430
-    }
+      count: 430,
+    },
   },
   {
     id: 5,
-    title: "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+    title:
+      "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
     price: 695,
     description:
       "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
@@ -67,8 +69,8 @@ export const products = [
     inStock: false,
     rating: {
       rate: 4.6,
-      count: 400
-    }
+      count: 400,
+    },
   },
   {
     id: 6,
@@ -81,8 +83,8 @@ export const products = [
     inStock: true,
     rating: {
       rate: 3.9,
-      count: 70
-    }
+      count: 70,
+    },
   },
   {
     id: 7,
@@ -95,21 +97,22 @@ export const products = [
     inStock: true,
     rating: {
       rate: 3,
-      count: 400
-    }
+      count: 400,
+    },
   },
   {
     id: 8,
     title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
     price: 10.99,
-    description: "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+    description:
+      "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
     category: "jewelery",
     image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png",
     inStock: false,
     rating: {
       rate: 1.9,
-      count: 100
-    }
+      count: 100,
+    },
   },
   {
     id: 9,
@@ -122,8 +125,8 @@ export const products = [
     inStock: true,
     rating: {
       rate: 3.3,
-      count: 203
-    }
+      count: 203,
+    },
   },
   {
     id: 10,
@@ -136,12 +139,13 @@ export const products = [
     inStock: false,
     rating: {
       rate: 2.9,
-      count: 470
-    }
+      count: 470,
+    },
   },
   {
     id: 11,
-    title: "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    title:
+      "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
     price: 109,
     description:
       "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
@@ -150,12 +154,13 @@ export const products = [
     inStock: true,
     rating: {
       rate: 4.8,
-      count: 319
-    }
+      count: 319,
+    },
   },
   {
     id: 12,
-    title: "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+    title:
+      "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
     price: 114,
     description:
       "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
@@ -164,8 +169,8 @@ export const products = [
     inStock: true,
     rating: {
       rate: 4.8,
-      count: 400
-    }
+      count: 400,
+    },
   },
   {
     id: 13,
@@ -178,12 +183,13 @@ export const products = [
     inStock: false,
     rating: {
       rate: 2.9,
-      count: 250
-    }
+      count: 250,
+    },
   },
   {
     id: 14,
-    title: "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+    title:
+      "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
     price: 999.99,
     description:
       "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
@@ -192,7 +198,7 @@ export const products = [
     inStock: true,
     rating: {
       rate: 2.2,
-      count: 140
-    }
-  }
+      count: 140,
+    },
+  },
 ];
