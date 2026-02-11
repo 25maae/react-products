@@ -1,5 +1,6 @@
 import Product from "./Product";
 import { products } from "../data";
+import "./ProductGrid.css";
 
 export default function ProductGrid() {
   return (
