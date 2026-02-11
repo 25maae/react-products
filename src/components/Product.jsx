@@ -1,3 +1,5 @@
+import "./ProductGrid.css";
+
 export default function Product({ product }) {
   return (
     <article className="product-card">
