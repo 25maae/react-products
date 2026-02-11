@@ -1,13 +1,15 @@
-import "./Product.css";
+import styles from "./Product.module.css";
 
 export default function Product({ product }) {
   return (
-    <article className="product-card">
-      <img src={product.image} className="product-image" />
-      <div className="product-info">
-        <h2 className="product-title">{product.title}</h2>
-        <p className="product-description">{product.description}</p>
-        <p className="product-price">DKK {product.price}</p>
+    <article className={styles["card"]}>
+      <a href={product.link} className={styles["cardLink"]}>
+        <img src={product.image} className={styles["image"]} />
+      </a>
+      <div className={styles["info"]}>
+        <h2 className={styles["title"]}>{product.title}</h2>
+        <p className={styles["description"]}>{product.description}</p>
+        <p className={styles["price"]}>DKK {product.price}</p>
         <span
           className={`product-stock  ${product.inStock ? "in-stock" : "out-of-stock"}`}
         >
