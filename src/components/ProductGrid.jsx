@@ -7,8 +7,7 @@ export default function ProductGrid() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const url =
-        "https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/webshop/products.json";
+      const url = "https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/webshop/products.json";
       const response = await fetch(url);
       const data = await response.json();
       setProducts(data);
@@ -19,7 +18,7 @@ export default function ProductGrid() {
 
   return (
     <section className={styles.grid} aria-label="Product list">
-      {products.map((product) => (
+      {products.map(product => (
         <Product key={product.id} product={product} />
       ))}
     </section>

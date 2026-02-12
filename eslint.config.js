@@ -13,7 +13,7 @@ export default defineConfig([
       js.configs.recommended,
       reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
-      eslintPluginJsxA11y.flatConfigs.recommended,
+      eslintPluginJsxA11y.flatConfigs.recommended
     ],
     languageOptions: {
       ecmaVersion: 2020,
@@ -21,11 +21,11 @@ export default defineConfig([
       parserOptions: {
         ecmaVersion: "latest",
         ecmaFeatures: { jsx: true },
-        sourceType: "module",
-      },
+        sourceType: "module"
+      }
     },
     rules: {
-      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
-    },
-  },
+      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }]
+    }
+  }
 ]);

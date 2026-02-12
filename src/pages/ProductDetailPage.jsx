@@ -11,11 +11,10 @@ export default function ProductDetailPage() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const url =
-        "https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/webshop/products.json";
+      const url = "https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/webshop/products.json";
       const response = await fetch(url);
       const products = await response.json();
-      const productToDisplay = products.find((p) => p.id === productId);
+      const productToDisplay = products.find(p => p.id === productId);
       setProduct(productToDisplay);
       setLoading(false);
     }
@@ -74,8 +73,7 @@ export default function ProductDetailPage() {
             <div
               className={styles.rating}
               role="group"
-              aria-label={`Rating: ${product.rating?.rate} out of 5, ${product.rating?.count} reviews`}
-            >
+              aria-label={`Rating: ${product.rating?.rate} out of 5, ${product.rating?.count} reviews`}>
               <span className={styles.ratingStars} aria-hidden="true">
                 ⭐ {product.rating?.rate}
               </span>
@@ -87,8 +85,7 @@ export default function ProductDetailPage() {
             <span
               className={`${styles.stock} ${product.inStock ? styles.inStock : styles.outOfStock}`}
               role="status"
-              aria-label={product.inStock ? "In stock" : "Out of stock"}
-            >
+              aria-label={product.inStock ? "In stock" : "Out of stock"}>
               {product.inStock ? "In Stock" : "Out of Stock"}
             </span>
             <div className={styles.descriptionSection}>
