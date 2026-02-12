@@ -1,3 +1,17 @@
+/* Product Card Link */
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-radius: 12px;
+}
+
+.cardLink:focus-visible {
+  outline: 3px solid #4a50c7;
+  outline-offset: 2px;
+}
+
+/* Product Card */
 .card {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -10,12 +24,6 @@
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
-}
-
-.cardLink {
-  text-decoration: none;
-  color: inherit;
-  display: block;
 }
 
 .image {
@@ -38,11 +46,47 @@
   font-weight: 600;
   color: #1a1a1a;
   margin: 0;
+  /* Begræns til 1 linjer */
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+  /* Begræns til 3 linjer */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .price {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #27ae60;
+  color: #1a7f42;
   margin: 0;
+}
+
+.stock {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #333;
+}
+
+.inStock {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.outOfStock {
+  background-color: #f8d7da;
+  color: #721c24;
 }
